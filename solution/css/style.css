@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Caveat&family=Fraunces&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    background-color: blue;
+    padding: 15px;
+    box-shadow: 0 2px 3px goldenrod;
+}
+
+.hero-head {
+    color: aqua;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main-form {
+    border: 1px solid rgb(60, 9, 109);
+    border-radius: 5px;
+    margin: 60px 150px 0 150px;
+    box-shadow: 0 0 2px 1px rgb(255, 79, 79);
+}
+
+.main-form h2 {
+    padding: 25px 10px;
+    font-weight: 400;
+}
+
+.ord-id {
+    padding: 15px;
+
+}
+
+.ord-id label {
+    font-weight: 600;
+    display: block;
+    margin-top: 8px;
+}
+
+.ord-id input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 10px;
+}
+
+.ord-id input:hover {
+    background-color: azure;
+}
+
+.ord-id textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.ord-id textarea:hover {
+    background-color: azure;
+}
+
+.add-sec label {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+
+.add-sec button:hover {
+    background-color: rgb(12, 93, 175);
+    transition: 0.2s ease-out;
+    color: yellow;
+}
+
+
+.dy-content {
+    margin-top: 20px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.margin-left {
+    margin-left: 110px;
+}
+
+.t-amt {
+    margin-left: 10px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.t-amt input {
+    border: none;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    background-color: rgb(215, 241, 233);
+}
+
+.order-btn {
+    padding: 8px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: white;
+}
+
+.order-btn:hover {
+    background-color: rgb(49, 49, 253);
+    transition: 0.2s ease-in-out;
+}
+
+.order-btn:visited {
+    background-color: blueviolet;
+}

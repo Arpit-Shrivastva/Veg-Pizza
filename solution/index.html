@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <div>
+            <h1 class="hero-head">Veggie Pizza Order</h1>
+        </div>
+    </nav>
+    <section>
+        <div class="main-form">
+            <h2>Fill up Order Details here</h2>
+            <form action="">
+                <div class="ord-id">
+                    <label for="order">Order id* : </label>
+                    <input type="number" id="order" name="oreder">
+
+                    <label for="name">Customer Name* : </label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email Id* : </label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="mobileNum">Contact Number* : </label>
+                    <input type="tel" pattern="[6-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Format : 896-012-4563"
+                        id="mobileNum" name="mobileNum">
+
+                    <label for="orderDate">Order Date* : </label>
+                    <input type="date" id="orderDate" name="orderDate">
+
+                    <label for="address">Address* </label>
+                    <textarea name="address" id="address" cols="40" rows="5" minlength="10"></textarea>
+                </div>
+                <div class="form-group add-sec">
+                    <label class="">Add Order : </label>
+                    <button type="button" class="btn btn-outline-dark rounded-circle" onclick="submitOrder()">+</button>
+                </div>
+                <div id="item-container"></div>
+                <div class="dy-content">
+                    <span id="category">Category Name</span>
+                    <span id="item" class="margin-left ">Item Name</span>
+                    <span id="price" class="margin-left">Price</span>
+                    <span id="qunt" class="margin-left">Quantity</span>
+                    <span id="amt" class="margin-left">Amount</span>
+                </div>
+                <div id="dynamic-content">
+                </div>
+                <div class="t-amt">
+                    <span id="total-amt">Total Amount: </span>
+                    <input type="number" id="total-amount">
+                </div>
+                <button id="final-order" class="order-btn">Order Now</button>
+            </form>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
