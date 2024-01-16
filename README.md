@@ -95,4 +95,3 @@ Dynamically Added Form Fields
 - Open the `index.html` file using Live Server and test the output.​​
 ​
 ![](orderForm.png)
-
