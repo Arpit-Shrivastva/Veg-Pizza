@@ -1,5 +1,7 @@
 ## Challenge - Create an order form and save the order details for the Veggie Pizza outlet
 
+eg-Pizza is a dynamic web page crafted using HTML, CSS, and JavaScript, with a primary focus on JavaScript DOM manipulation. Through the utilization of JavaScript's Document Object Model (DOM), I dynamically update and enhance the user interface, leveraging event listeners to create an interactive and engaging experience. The seamless integration of these technologies allows for real-time updates and responsiveness, making Veg-Pizza a delightful and user-friendly web application.
+
 ## Problem Statement
 
 Veggie Pizza is a pizza delivery outlet that became popular for its custom-made vegetarian pizzas. A customer can order pizzas and other items by calling the outlet. The outlet delivers the order to the address specified by each customer.​
